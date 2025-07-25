@@ -16,7 +16,7 @@ A basic and responsive React project that lets users mix Red, Green, and Blue (R
 
 ## 📸 Screenshot
 
-![Color Mixture Screenshot](https://via.placeholder.com/800x400.png?text=Color+Mixture+App)
+![Color Mixture Screenshot](https://github.com/mananmkgithub/getrgbcolorcode/blob/main/imgforbasicapp/colormixture.png)
 
 ---
 
@@ -24,9 +24,27 @@ A basic and responsive React project that lets users mix Red, Green, and Blue (R
 
 - React JS
 - CSS (Responsive, Custom Styling)
-- useState Hook
+---
+
 
 ---
 
-## 📁 Project Structure
+## 🔧 How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/mananmkgithub/getrgbcolorcode.git
+
+# 2. Navigate into the project folder
+cd color-mixture
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+
+
+Made with ❤️ by Manan Kolate
+
 
