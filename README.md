@@ -27,24 +27,7 @@ A basic and responsive React project that lets users mix Red, Green, and Blue (R
 ---
 
 
----
-
-## 🔧 How to Run
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/mananmkgithub/getrgbcolorcode.git
-
-# 2. Navigate into the project folder
-cd foldername
-
-# 3. Install dependencies
-npm install
-
-# 4. Start the development server
-npm run dev
 
 
-Made with ❤️ by Manan Kolate
 
 
