@@ -13,6 +13,8 @@ function Cm() {
 
   const gcolor = () => {
     setgc(rcolor());
+    navigator.clipboard.writeText(rcolor())
+    alert('color code is copy..')
   };
 
   return (
