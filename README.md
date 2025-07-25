@@ -36,7 +36,7 @@ A basic and responsive React project that lets users mix Red, Green, and Blue (R
 git clone https://github.com/mananmkgithub/getrgbcolorcode.git
 
 # 2. Navigate into the project folder
-cd color-mixture
+cd foldername
 
 # 3. Install dependencies
 npm install
