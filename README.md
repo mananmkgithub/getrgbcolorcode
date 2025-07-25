@@ -1,12 +1,32 @@
-# React + Vite
+# 🎨 Color Mixture App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic and responsive React project that lets users mix Red, Green, and Blue (RGB) values using sliders to create custom colors. It also displays the RGB color code dynamically and allows get color code.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Real-time RGB color mixing using sliders
+- Responsive design for desktop and mobile
+- Save and display the selected RGB color code
+- Styled using custom CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 📸 Screenshot
+
+![Color Mixture Screenshot](https://via.placeholder.com/800x400.png?text=Color+Mixture+App)
+
+---
+
+## 🛠️ Tech Stack
+
+- React JS
+- CSS (Responsive, Custom Styling)
+- useState Hook
+
+---
+
+## 📁 Project Structure
+
