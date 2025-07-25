@@ -1,0 +1,124 @@
+/* Basic reset and structure */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+.color-mixture-container {
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+/* Colored box */
+.color-box {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Sliders layout */
+.sliders {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.slider-group {
+  text-align: left;
+}
+
+.slider-group label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+input[type="range"] {
+  width: 100%;
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  appearance: none;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+/* Button */
+.save-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.save-btn:hover {
+  background-color: #218838;
+}
+
+/* Saved RGB value */
+.saved-color {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive behavior */
+@media (max-width: 576px) {
+  .color-mixture-container {
+    padding: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .color-box {
+    height: 150px;
+  }
+}
+.footer {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #555;
+  text-align: center;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
